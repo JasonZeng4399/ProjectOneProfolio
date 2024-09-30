@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#parentcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #5d275d;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items:center;
+}
+
+a{ 
+    font-size: 40px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    vertical-align:text-top;
+    color: aliceblue;
+}
+
+a:hover {
+	text-decoration:double;
+    font-size: 50px;
+	color: rgba(27, 32, 45, 0.975);
+}
+
+#logo{
+    width: 30%;
+    justify-self: auto;
+    max-height: min-content;
+    max-width: min-content;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:80%;
+    justify-content: space-between;
+    margin-left: 2%;
+    padding-right: 1%;
+    align-items:flex-start;
+    vertical-align: top;
+    font-family: "rock salt";
+}
+
+h1{
+    width: 100%;
+    margin: auto;
+    font-size: 40px;
+    padding: 5% 5% 0% 5%;
+    font-family: "rock salt";
+    color: aliceblue;
+    margin-left: 16%;
+}
+
+#listcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: justify;
+}
+
+#countries{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:80%;
+    justify-content: center;
+    align-items: justify;
+}
+
+#movies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:80%;
+    justify-content: center;
+    align-items: justify;
+}
+
+#artist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:80%;
+    justify-content: center;
+    align-items: justify;
+    margin-bottom: 5%;
+}
+
+#artist h3{
+    display: flex;
+    justify-content:center;
+    align-self: flex-start;
+}
+
+h2{
+    display: flex;
+    width: 90%;
+    color: aliceblue;
+    font-size: 35px;
+    font-family: "rock salt";
+    padding: 5% 0%;
+    align-items: justify;
+    justify-content: center;
+}
+
+h3{
+    display: flex;
+    font-size: 35px;
+    color: aliceblue;
+    align-self: justify;
+    justify-content: center;
+    width: 90%;
+    padding: 5%;
+}
+
+#listcontainer img{
+    display: block;
+    width:25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    font-size: 35px;
+    color: aliceblue;
+    align-self: justify;
+    justify-items: center;
+    width:90%;
+    margin: 5%;
+}
+
+#movies li{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    color:aliceblue;
+    font-size: 25px;
+    width: 50%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 5%;
+    font-family: "rock 3D";
+}
+
+footer a{
+    color: #0084eb;
+}
